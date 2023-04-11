@@ -1,0 +1,110 @@
+body {
+    background-color: #6cc5ad;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: white;
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003087;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 72px;
+    display: inline-block;
+    color: #fff;
+}
+
+nav {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffba08;
+    border-bottom: 2px solid #ffba08;
+    padding-bottom: 3px;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #ffba08;
+}
+
+article a {
+    display: block;
+    width: 100px;
+    padding: 8px 16px;
+    background-color: #ffba08;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+article a:hover {
+    background-color: #ffc107;
+}
+
+.rating {
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 32px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating label:hover,
+.rating label:hover~label,
+.rating input:checked~label {
+    color: #ffba08;
+}
+
+.rating label:hover,
+.rating label:hover~label {
+    text-shadow: 0 0 2px #ffba08;
+}
